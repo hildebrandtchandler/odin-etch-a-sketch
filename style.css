@@ -1,0 +1,110 @@
+/* body and container */
+body {
+    background-color: black;
+}
+
+.toy {
+    background-color: darkred;
+    border-radius: 30px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: gold;
+    font-family: cursive;
+}
+
+/* Header */
+.header {
+    align-self: center;
+}
+
+/* Main */
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    gap: 20px;
+    align-items: center;
+}
+
+button, input {
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: darkgoldenrod;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+}
+
+input[type="color"] {
+    -webkit-appearance: none;
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 20px;
+}
+input [type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+input[type="color"]::-webkit-color-swatch {
+    border: none;
+    border-radius: 20px;
+}
+
+input[type="color"]:hover {
+    background-color: goldenrod;
+    transform: scale(1.1);
+}
+
+button.hover {
+    background-color: goldenrod;
+    transform: scale(1.1);
+}
+
+button.active {
+    color: black;
+}
+
+.screen {
+    display: grid;
+    width: 60vh;
+    height: 60vh;
+    margin-right: 150px;
+    background-color: grey;
+}
+
+.invisible {
+    visibility: hidden;
+}
+/* Footer and knobs */
+footer {
+    justify-self: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+h6 {
+    align-self: flex-end;
+    font-size: 110%;
+}
+.circle {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin: 50px;
+}
