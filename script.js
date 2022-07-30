@@ -42,6 +42,7 @@ function draw(e) {
 //Change Color
 function setColor() {
     eraserButton.classList.remove('active');
+    eraseActive = false;
     currentColor = colorPicker.value;
 }
 //"Erase" function
