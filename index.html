@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sketch-An-Etch</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 </head>
 <body>
     <div class="toy">
         <header class="header">
             <h1>Sketch-An-Etch</h1>
+            <p>Note: This site does not work on moble platforms!</p>
         </header>
         <main class="main">
             <div class="settings">
@@ -21,7 +21,7 @@
                 <button id="clear">Clear</button>
                 <button id="sizeChange">Change Size</button>
             </div>
-            <div id="screen" class="screen"></div>
+            <div id="screen" class="screen" draggable="false"></div>
             <div class="invisible"></div>
         </main>
         <footer id="footer">
@@ -30,5 +30,6 @@
             <span class="circle"></span>
         </footer>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

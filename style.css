@@ -17,6 +17,7 @@ body {
 /* Header */
 .header {
     align-self: center;
+    text-align: center;
 }
 
 /* Main */
@@ -39,7 +40,7 @@ button, input {
     cursor: pointer;
     border-radius: 20px;
     background-color: darkgoldenrod;
-    color: white;
+    color: black;
     outline: none;
     border: none;
 }
@@ -70,19 +71,20 @@ input[type="color"]:hover {
     transform: scale(1.1);
 }
 
-button.hover {
+button:hover {
     background-color: goldenrod;
     transform: scale(1.1);
 }
 
 button.active {
-    color: black;
+    color: white;
+    background-color: black;
 }
 
 .screen {
     display: grid;
-    width: 60vh;
-    height: 60vh;
+    width: 500px;
+    height: 500px;
     margin-right: 150px;
     background-color: grey;
 }
@@ -101,10 +103,15 @@ h6 {
     align-self: flex-end;
     font-size: 110%;
 }
+
 .circle {
     background-color: white;
     height: 100px;
     width: 100px;
     border-radius: 50px;
     margin: 50px;
+}
+
+.screenSquare {
+    -webkit-user-drag: none;
 }
